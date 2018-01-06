@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\_share">
+      <UniqueIdentifier>{6e115b47-99e7-4400-9035-6bce810a7607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\uniprint">
+      <UniqueIdentifier>{721d0d8b-64d5-4c22-a60f-63a0b32f262b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\vector">
+      <UniqueIdentifier>{82afd46f-dc5a-4683-8e65-77c44621b85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fibonacci">
+      <UniqueIdentifier>{9bd6b031-1bf2-4cd5-8ea2-7d6a65ccd4b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uniprint\print_basic.cpp">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uniprint\print_int_array.cpp">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack%40list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack%40vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\checkOrder_Elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\checkorder_vector.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\comparator.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\crc_Elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\crc_vector.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\decrease_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\decrease_vector.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\double_Elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\double_vector.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\hailstone_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\half_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\increase_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\increase_vector.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\rand.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\release.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\util.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\permute.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\resource.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_assignment.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_bracket.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_bubble.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_bubble_fast.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_bubblesort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_bubblesort_fast.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_constructor_by_copying.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_deduplicate.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_deduplicate_1.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_deduplicate_wrong_1.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_disordered.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_expand.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_find.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_heapSort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_implementation.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_insert.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_merge.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_merge_optimized.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_mergesort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_partition_a.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_partition_a1.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_partition_B.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_partition_b1.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_partition_c.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_quicksort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_remove.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_removeinterval.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_search.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_search_binary_a.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_search_binary_b.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_search_binary_c.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\Vector_search_fibonaccian_A.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_search_fibonaccian_b.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_selectionsort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_shrink.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_sort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_test.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_traverse.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\Vector_uniquify.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_uniquify_slow.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vector\vector_unsort.h">
+      <Filter>Resource Files\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print_implementation.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print_int_array.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print_traversable.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fibonacci\Fib.h">
+      <Filter>Resource Files\fibonacci</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
