@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\_share">
+      <UniqueIdentifier>{853a0431-0a00-46fe-989e-978255a6a65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\uniprint">
+      <UniqueIdentifier>{a38e03b3-31fa-4068-84ae-42c24e25b179}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_bracket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_clear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_constructor_by_copying.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_copyNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_deduplicate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_destructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_disordered.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_find.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_implementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_initialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_insert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_insertionsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_merge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_mergesort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_remove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_reverse1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_reverse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_reverse3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_SelectionSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_selectMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_traverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_uniquify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listNode_implementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listNode_insertAsPred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listNode_insertAsSucc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\checkOrder_Elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\checkOrder_list.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\comparator.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\crc_Elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\crc_list.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\decrease_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\decrease_list.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\double_Elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\hailstone_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\half_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\half_list.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\increase_elem.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\increase_list.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\rand.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\release.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_share\util.h">
+      <Filter>Resource Files\_share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print_implementation.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print_int_array.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uniprint\print_traversable.h">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uniprint\print_basic.cpp">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uniprint\print_int_array.cpp">
+      <Filter>Resource Files\uniprint</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
